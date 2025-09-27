@@ -31,7 +31,7 @@ export default function FeaturedProjectSection(){
             uses={["React", "Express", "TailwindCSS", "more..."]}
             key={Date.now}
             imgUrl={taskFlowUrl}
-            url={"/"}
+            url={"https://task-flow-hiy531nmx-full-stack-web-dev.vercel.app"}
             />
 
             
