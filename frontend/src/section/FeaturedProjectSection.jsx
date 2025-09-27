@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import ProjectView from "@/widget/ProjectView";
 import { ArrowRight, ArrowUpRightFromSquareIcon } from "lucide-react";
 import chatAppUrl from "../assets/images/chat-app-imgUrl.png";
-import taskFlowUrl from "../assets/images/taskflow.png"
+import taskFlowUrl from "../assets/images/taskFlow.png";
 
 export default function FeaturedProjectSection(){
 
