@@ -1,4 +1,4 @@
-
+import portifolioImage from "../assets/images/portifolioImage.png"
 export default function AboutSection(){
 
     return <>
@@ -6,11 +6,11 @@ export default function AboutSection(){
         <div className="mt-20 text-4xl font-bold justify-center flex gap-3 mb-20"><div className="opacity-90">About</div><div className="text-gradient"> Me</div></div>
 
         <div className="grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-15 md:gap-15 sm:gap-10">
-            <div className="w-full h-full relative">
-                <img className="absolute w-full h-full object-cover" alt="Developer img" src="/"/>
+            <div className="w-115 h-115 shadow-lg relative">
+                <img className="absolute w-full h-full object-cover" alt="Developer img" src={portifolioImage}/>
             </div>
 
-            <div className="w-full text-[16px] flex flex-col gap-5">
+            <div className="w-full text-[16px] mt-10 flex flex-col gap-5">
                 <div className="opacity-80">Hi, I’m Eyob Tilahun, a passionate Full-Stack Developer who loves building clean, user-friendly, and scalable applications. I specialize in the MERN stack (MongoDB, Express, React, Node.js) and enjoy turning complex problems into simple, elegant solutions.
             </div>
 

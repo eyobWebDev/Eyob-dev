@@ -5,6 +5,7 @@ import { useThemeStore } from "@/store/useThemeStore"
 import { LogIn, MenuIcon, MoonStar, Sun } from "lucide-react"
 import { Menu } from "@radix-ui/react-menubar"
 import DropDownMenu from "@/widget/DropDownMenu"
+import portifolioImage from "../../assets/images/portifolioImage.png"
 
 export default function NavBar() {
     const {darkMode, toggleDarkMode} = useThemeStore()
@@ -32,7 +33,12 @@ export default function NavBar() {
 
     return <>
         <div className={`flex fixed top-0 z-50  ${navbarStyle} justify-between lg:p-5 p-3 items-center w-full`}>
-            <div className="lg:text-3xl md:text-2xl  navbar-title font-bold">Eyob.dev</div>
+            <div className="flex gap-2 items-center">
+                <div className="h-10 w-10 relative">
+                    <img className="absolute h-full w-full object-cover" src={portifolioImage} />
+                </div>
+                <div className="lg:text-3xl md:text-2xl  navbar-title font-bold">Eyob.dev</div>
+            </div>
 
             <div className="lg:flex items-center hidden gap-7">
                 <a href="#home" className={`navbar-link target:text-blue-500 hover:text-blue-500`}>Home</a>
