@@ -10,7 +10,7 @@ export default function FeaturedProjectSection(){
     <div id="projects" className="mt-30 mb-30 lg:p-5">
         <div className="font-bold p-7 lg:text-5xl md:text-5xl text-3xl flex gap-2 justify-center"><div className="p-2">Featured</div><div className="text-gradient p-2">Projects</div></div>
 
-        <div className="grid p-3 lg:grid-cols-2 lg:mt-30 gap-10 sm:grid-cols-1">
+        <div className="grid p-3 lg:grid-cols-3 lg:mt-30 gap-10 sm:grid-cols-1">
 
             <ProjectView 
             alt={`Chat me`}
@@ -31,7 +31,7 @@ export default function FeaturedProjectSection(){
             uses={["React", "Express", "TailwindCSS", "more..."]}
             key={Date.now}
             imgUrl={taskFlowUrl}
-            url={"https://task-flow-hiy531nmx-full-stack-web-dev.vercel.app"}
+            url={"https://task-flow-red-pi.vercel.app"}
             />
 
             

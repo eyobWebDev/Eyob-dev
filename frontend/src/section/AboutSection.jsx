@@ -6,7 +6,7 @@ export default function AboutSection(){
         <div className="mt-20 text-4xl font-bold justify-center flex gap-3 mb-20"><div className="opacity-90">About</div><div className="text-gradient"> Me</div></div>
 
         <div className="grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-15 md:gap-15 sm:gap-10">
-            <div className="w-115 h-115 shadow-lg relative">
+            <div className="w-100 h-100 shadow-lg relative">
                 <img className="absolute w-full h-full object-cover" alt="Developer img" src={portifolioImage}/>
             </div>
 
