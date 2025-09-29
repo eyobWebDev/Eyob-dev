@@ -35,8 +35,8 @@ export default function HomePage() {
         </div>
 
         <div className="flex justify-center mt-10 gap-10 w-full items-center">
-            <NavLink to={`https://github.com/eyobWebDev`} className={`p-2 rounded-full ${darkMode ? "hover:bg-gray-700": "hover:bg-gray-300"}`} ><Github /></NavLink>
-            <NavLink className={`p-2 rounded-full ${darkMode ? "hover:bg-gray-700": "hover:bg-gray-300"}`} ><Twitter /></NavLink>
+            <a target="_blank"  href={`https://github.com/eyobWebDev`} className={`p-2 rounded-full ${darkMode ? "hover:bg-gray-700": "hover:bg-gray-300"}`} ><Github /></a>
+            <a target="_blank" href={`https://x.com/Eyob357`} className={`p-2 rounded-full ${darkMode ? "hover:bg-gray-700": "hover:bg-gray-300"}`} ><Twitter /></a>
         </div>
      </div>
 

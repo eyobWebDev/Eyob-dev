@@ -13,9 +13,9 @@ export default function Footer() {
             <div className="flex flex-col w-1/6 items-center gap-6">
                 <h1 className="font-bold lg:text-xl opacity-90 sm:text-[12px]">Quick links</h1>
                 <div className="flex gap-5 justify-around w-full items-center">
-                    <div className="hover:text-blue-400"><Github /></div>
-                    <div className="hover:text-blue-400"><Twitter /></div>
-                    <div className="hover:text-blue-400"><Linkedin /></div>
+                    <a target="_blank" href={`https://github.com/eyobWebDev`} className="hover:text-blue-400"><Github /></a>
+                    <a target="_blank" href={`https://x.com/Eyob357`} className="hover:text-blue-400"><Twitter /></a>
+                    <a target="_blank" className="hover:text-blue-400"><Linkedin /></a>
                 </div>
             </div>
         </div>
